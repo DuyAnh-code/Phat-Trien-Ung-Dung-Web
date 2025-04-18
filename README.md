@@ -1,8 +1,8 @@
 ﻿# Self note dành cho môn Phát triển ứng dụng web
 ## Giảng viên hướng dẫn: 
 * Thầy Lê Gia Công
-## Tác giả Lê Binh Duy Anh
-* 
+## Tác giả
+* Lê Bình Duy Anh 
 ## Chương 1: Web back-end
 ### 1.1 Một số khái niệm cơ bản
 * **Web:** Web hay WWW là từ viết tắt của World Wide Web là mạng lưới thông tin toàn cầu. Web bao gồm rất nhiều các trang web kết nối lại với nhau, với thông tin đa dạng như văn bản, 
@@ -531,18 +531,18 @@ Lệnh ```git config```được sử dụng để đọc, ghi hoặc cập nhậ
   * Tập tin cấu hình được lưu tại C:\Program Files\Git\etc (trên Windows).
   * Cần quyền quản trị hệ thống để thực hiện cấu hình ở mức này.
   * Để cấu hình, sử dụng tham số --system với lệnh git config.
-Ví dụ: git config --system user.name "NH1Tkendo"
+Ví dụ: git config --system user.name "Duy Anh"
 * global (phạm vi người dùng):
   * Phạm vi này áp dụng cho tài khoản người dùng hiện tại và cho tất cả kho lưu trữ mà người dùng đó làm việc.
   * Tập tin cấu hình được lưu tại C:\Users\<tên_người_dùng>\.gitconfig (trên Windows).
   * Đây là phạm vi cấu hình được sử dụng nhiều nhất.
   * Để cấu hình, sử dụng tham số --global với lệnh git config.
-Ví dụ:  git config --global user.name "NH1Tkendo"
+Ví dụ:  git config --global user.name "Duy Anh"
 - local (phạm vi kho lưu trữ, repo)
   * Phạm vi này áp dụng cho một kho lưu trữ cụ thể.
   * Tập tin cấu hình được lưu tại .git/config trong thư mục gốc của kho lưu trữ
   * Để cấu hình, sử dụng lệnh git config mà không có tham số --system hoặc --global. Tất nhiên, bạn phải di chuyển dấu nhắc chuột vào thư mục gốc của kho lưu trữ, để gõ lệnh.
-Ví dụ: git config user.name "NH1Tkendo"
+Ví dụ: git config user.name "Duy Anh"
 
 **Xem thông tin cấu hình**
 
@@ -565,7 +565,7 @@ Thứ tự ưu tiên là: local > global > system. Nghĩa là cấu hình ở lo
 **Cấu hình địa chỉ email**
 Để cấu hình địa chỉ email, bạn thực hiện tương tự như cấu hình tên. Chỉ việc thay đổi tham số user.name thành user.email.
 
-VD: ```git config --global user.email "ngobatai1711@gmail.com"```
+VD: ```git config --global user.email "renbi1204@gmail.com"```
 #### 2.4.2 Xóa hoặc thay đổi định danh
 **Xóa định danh người dùng**
 Nếu bạn muốn xóa hoàn toàn định danh người dùng đã cấu hình (ở phạm vi global), bạn có thể sử dụng lệnh:
